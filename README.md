@@ -17,12 +17,14 @@ El estudio incluirá preparación documentada, análisis exploratorio, una regla
 ```text
 proyecto-cd/
 ├── data/
-│   ├── raw/                  # Datos originales sin modificar
+│   ├── raw/
+│   │   ├── tpm_bcentral_diaria.xlsx  # Serie oficial de TPM
+│   │   └── .gitkeep
 │   └── processed/            # Datos integrados y transformados
 ├── docs/                     # Diccionario, fuentes y decisiones metodológicas
 ├── notebooks/                # Exploración y notebook final
 ├── src/
-│   ├── ingest/               # Descarga/lectura de series oficiales
+│   ├── ingest/               # Lectura de archivos fuente locales
 │   ├── processing/           # Limpieza, integración, rezagos y etiqueta objetivo
 │   └── visualization/        # Funciones reutilizables para gráficos
 ├── .gitignore
@@ -36,7 +38,7 @@ proyecto-cd/
 - `notebooks/`: aloja análisis numerados, como `01_revision_fuentes.ipynb`, `02_eda.ipynb` y `99_estudio_final.ipynb`.
 - `docs/`: registra definiciones, unidades, frecuencias, fuentes, fechas de consulta/publicación y decisiones de transformación.
 
-Los datos están excluidos de Git para mantener el repositorio liviano. No subas credenciales ni datos con restricciones de uso.
+El archivo fuente `data/raw/tpm_bcentral_diaria.xlsx` se incluye en Git: es una descarga oficial liviana y permite que todo el equipo parta de la misma versión. Los demás archivos de datos siguen ignorados por defecto; evalúen incorporarlos solo si son públicos, livianos y necesarios para reproducir el estudio. No subas credenciales ni datos con restricciones de uso.
 
 ## Requisitos previos
 
@@ -88,7 +90,7 @@ jupyter notebook
 
 ## Flujo de análisis previsto
 
-1. **Obtención y preparación:** descargar y registrar series oficiales; revisar fechas, unidades, frecuencia y valores faltantes; integrar series y documentar transformaciones.
+1. **Obtención y preparación:** trabajar desde los archivos fuente versionados en `data/raw/`, sin APIs ni descargas automáticas; revisar fechas, unidades, frecuencia y valores faltantes; integrar series y documentar transformaciones.
 2. **Análisis exploratorio:** estudiar la evolución de TPM e inflación, IMACEC y desempleo, dólar y cobre; revisar distribución de decisiones y correlaciones. Los episodios económicos sirven como contexto, no como evidencia causal.
 3. **Variable objetivo:** etiquetar cada decisión como sube, se mantiene o baja mediante una regla explícita acordada por el equipo.
 4. **Modelamiento:** construir primero un baseline (por ejemplo, predecir siempre la clase más frecuente) y compararlo con regresión logística y, si corresponde al curso, un árbol de decisión.
