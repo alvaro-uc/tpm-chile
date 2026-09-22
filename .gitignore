@@ -1,0 +1,59 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+.env/
+
+# Datos locales: conservar la estructura, no versionar los archivos
+data/*
+!data/.gitkeep
+!data/raw/
+data/raw/*
+!data/raw/.gitkeep
+!data/processed/
+data/processed/*
+!data/processed/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# Variables y configuración local
+.env
+.env.*
+!.env.example
+*.local
+
+# Configuración de asistentes de IA / editores
+.cursorrules
+.cursor/
+.windsurfrules
+.windsurf/
+.claude/
+.clinerules
+.continue/
+.copilot/
+.github/copilot-instructions.md
+
+# IDE y sistema operativo
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# Logs y archivos temporales
+*.log
+*.tmp
+*.swp
+*.swo
+
