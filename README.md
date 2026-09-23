@@ -17,9 +17,15 @@ El estudio incluirá preparación documentada, análisis exploratorio, una regla
 ```text
 proyecto-cd/
 ├── data/
-│   ├── raw/
-│   │   ├── tpm_bcentral_diaria.xlsx  # Serie oficial de TPM
-│   │   └── .gitkeep
+│   ├── raw/                  # Excel originales versionados
+│   │   ├── clp_usd.xlsx
+│   │   ├── cu_usd_lb.xlsx
+│   │   ├── desempleo_total_mensual.xlsx
+│   │   ├── exp_tpm_mensual_mediana.xlsx
+│   │   ├── imacec_empalmado_original.xlsx
+│   │   ├── ipc_general_anual.xlsx
+│   │   ├── ipc_general_mensual.xlsx
+│   │   └── tpm_bcentral_diaria.xlsx
 │   └── processed/            # Datos integrados y transformados
 ├── docs/                     # Diccionario, fuentes y decisiones metodológicas
 ├── notebooks/                # Exploración y notebook final
@@ -36,9 +42,9 @@ proyecto-cd/
 - `data/processed/`: contiene tablas derivadas que se pueden regenerar mediante código.
 - `src/`: contiene lógica reutilizable para ingesta, procesamiento y visualización.
 - `notebooks/`: aloja análisis numerados, como `01_revision_fuentes.ipynb`, `02_eda.ipynb` y `99_estudio_final.ipynb`.
-- `docs/`: registra definiciones, unidades, frecuencias, fuentes, fechas de consulta/publicación y decisiones de transformación.
+- `docs/`: registra definiciones, unidades, frecuencias, fuentes, fechas de consulta/publicación, decisiones de transformación y la retroalimentación del profesor.
 
-El archivo fuente `data/raw/tpm_bcentral_diaria.xlsx` se incluye en Git: es una descarga oficial liviana y permite que todo el equipo parta de la misma versión. Los demás archivos de datos siguen ignorados por defecto; evalúen incorporarlos solo si son públicos, livianos y necesarios para reproducir el estudio. No subas credenciales ni datos con restricciones de uso.
+Los archivos Excel de `data/raw/` son las fuentes originales que usará el equipo y se versionan para que todos trabajen con las mismas copias. La lista de series, períodos y advertencias está en `docs/README.md`. Los demás archivos de datos siguen ignorados por defecto. No subas credenciales ni información con restricciones de uso.
 
 ## Requisitos previos
 

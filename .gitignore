@@ -11,6 +11,13 @@ data/*
 data/raw/*
 !data/raw/.gitkeep
 !data/raw/tpm_bcentral_diaria.xlsx
+!data/raw/clp_usd.xlsx
+!data/raw/desempleo_total_mensual.xlsx
+!data/raw/ipc_general_mensual.xlsx
+!data/raw/ipc_general_anual.xlsx
+!data/raw/cu_usd_lb.xlsx
+!data/raw/exp_tpm_mensual_mediana.xlsx
+!data/raw/imacec_empalmado_original.xlsx
 !data/processed/
 data/processed/*
 !data/processed/.gitkeep
