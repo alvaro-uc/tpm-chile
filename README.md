@@ -46,6 +46,17 @@ proyecto-cd/
 
 Los archivos Excel de `data/raw/` son las fuentes originales que usará el equipo y se versionan para que todos trabajen con las mismas copias. La lista de series, períodos y advertencias está en `docs/README.md`. Los demás archivos de datos siguen ignorados por defecto. No subas credenciales ni información con restricciones de uso.
 
+El historial de reuniones se guarda **aparte** en
+`data/processed/reuniones_tpm_2010_2025.csv`: 161 decisiones, con fecha de
+anuncio, corte al cierre del día hábil anterior y etiqueta `sube/mantiene/baja`.
+Se regenera localmente con `python -m src.processing.reuniones_tpm`, a partir
+del Excel original y las fuentes `rpm_*.json` conservadas en `data/raw/reuniones_tpm/`.
+Las fuentes, la recopilación web puntual autorizada, la corrección de una
+fecha y los límites de esta primera versión están en
+[`docs/reuniones_tpm.md`](docs/reuniones_tpm.md).
+El notebook [`02_reuniones_tpm.ipynb`](notebooks/02_reuniones_tpm.ipynb)
+explica y ejecuta ese proceso paso a paso desde un kernel limpio.
+
 ## Requisitos previos
 
 - Git.

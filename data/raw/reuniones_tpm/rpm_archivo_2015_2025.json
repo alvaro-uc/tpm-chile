@@ -1,0 +1,35 @@
+{
+  "fecha_consulta": "2026-10-16",
+  "fuente_url": "https://www.bcentral.cl/es/areas/politica-monetaria/reunion-de-politica-monetaria-rpm/documentacion-rpm",
+  "metodo": "Transcripción de las fechas visibles del archivo oficial, filtrado año a año. Se conserva el texto original; para rangos de dos días la decisión corresponde al último día. El registro de diciembre de 2025 estaba en la tabla inicial de 2026 y no en el resultado del filtro 2025.",
+  "fechas_por_anio": {
+    "2015": ["17 de Diciembre 2015", "12 de Noviembre 2015", "15 de Octubre 2015", "15 de Septiembre 2015", "13 de Agosto 2015", "14 de Julio 2015", "11 de Junio 2015", "14 de Mayo 2015", "16 de Abril 2015", "19 de Marzo 2015", "12 de Febrero 2015", "15 de Enero 2015"],
+    "2016": ["13 de Diciembre 2016", "17 de Noviembre 2016", "18 de Octubre 2016", "15 de Septiembre 2016", "11 de Agosto 2016", "14 de Julio 2016", "16 de Junio 2016", "17 de Mayo 2016", "12 de Abril 2016", "17 de Marzo 2016", "11 de Febrero 2016", "14 de Enero 2016"],
+    "2017": ["14 de Diciembre 2017", "14 de Noviembre 2017", "19 de Octubre 2017", "14 de Septiembre 2017", "17 de Agosto 2017", "13 de Julio 2017", "15 de Junio 2017", "18 de Mayo 2017", "13 de Abril 2017", "16 de Marzo 2017", "14 de Febrero 2017", "19 de Enero 2017"],
+    "2018": ["4 de diciembre", "17 y 18 de octubre", "4 de septiembre", "23 y 24 de julio", "13 de junio", "2 y 3 de mayo", "20 de marzo", "31 de enero y 1 de febrero 2018"],
+    "2019": ["4 de diciembre de 2019", "22 y 23 de Octubre de 2019", "3 de septiembre de 2019", "17 y 18 de julio de 2019", "7 de junio de 2019", "8 y 9 de mayo", "29 de marzo", "29 y 30 de enero"],
+    "2020": ["7 de diciembre 2020", "15 de octubre 2020", "1 de septiembre 2020", "15 de julio 2020", "16 de junio 2020", "6 de mayo 2020", "31 de marzo 2020", "16 de marzo 2020 especial", "28 y 29 de enero 2020"],
+    "2021": ["14 de diciembre 2021", "13 de octubre 2021", "31 de agosto 2021", "14 de julio 2021", "8 de junio 2021", "13 de mayo 2021", "30 de marzo 2021", "27 de enero 2021"],
+    "2022": ["6 de diciembre 2022", "12 de octubre 2022", "6 de septiembre 2022", "13 de julio 2022", "07 de junio 2022", "05 de mayo 2022", "29 de marzo 2022", "26 de enero 2022"],
+    "2023": ["20 de diciembre 2023", "26 de octubre 2023", "5 de septiembre 2023", "28 de julio 2023", "19 de junio 2023", "12 de mayo 2023", "4 de abril 2023", "26 de enero 2023"],
+    "2024": ["17 de diciembre 2024", "17 de octubre 2024", "3 de septiembre 2024", "31 de julio 2024", "18 de junio 2024", "23 de mayo 2024", "02 de abril 2024", "31 de enero 2024"],
+    "2025": ["16 de diciembre 2025", "28 de octubre 2025", "9 de septiembre 2025", "29 de julio 2025", "17 de junio 2025", "29 de abril 2025", "21 de marzo 2025", "28 de enero 2025"]
+  },
+  "correcciones_verificadas": [
+    {
+      "fecha_listado": "2023-12-20",
+      "fecha_decision": "2023-12-19",
+      "tpm_anunciada_pct": 8.25,
+      "fuente_url": "https://www.bcentral.cl/web/banco-central/contenido/-/detalle/comunicado-reunion-de-politica-monetaria-diciembre-2023",
+      "fuente_minuta_url": "https://www.bcentral.cl/documents/33528/5075095/Minuta-RPM-diciembre-2023.pdf/617b6fcb-d0a4-08a3-0464-d81411da9969?t=1704407970037&version=1.1",
+      "nota": "El listado dice 20, pero comunicado y minuta (sesión 302) fechan la decisión el 19. La serie diaria registra el nuevo nivel el 20."
+    }
+  ],
+  "verificaciones_adicionales": [
+    {
+      "fecha_decision": "2025-12-16",
+      "tpm_anunciada_pct": 4.5,
+      "fuente_url": "https://www.bcentral.cl/contenido/-/detalle/prensa/comunicados-rpm/comunicado-rpm-diciembre-2025"
+    }
+  ]
+}

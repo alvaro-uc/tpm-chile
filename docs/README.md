@@ -19,9 +19,17 @@ La cobertura muestra todo el período guardado en cada Excel. El análisis princ
 
 ## Lectura e interpretación
 
+El historial de reuniones y la regla de corte acordada están en
+[`reuniones_tpm.md`](reuniones_tpm.md). La tabla por decisión se conserva aparte
+en `data/processed/reuniones_tpm_2010_2025.csv`, sin modificar los Excel originales.
+Las tres fuentes JSON `data/raw/reuniones_tpm/rpm_*.json` y el anexo HTML de la Memoria 2014
+documentan la recopilación puntual autorizada; regenerar la tabla no usa red.
+El notebook `notebooks/02_reuniones_tpm.ipynb` inspecciona esos insumos y
+explica la construcción y validación de la tabla por decisión.
+
 - En la hoja `Cuadro`, los encabezados están en la fila 3: columna A `Periodo`, columna B el valor. Los registros comienzan en la fila 4.
 - Las series diarias contienen días de actividad/publicación, no una fila por reunión. La TPM se mantiene constante entre cambios de decisión. El dólar y el cobre también tienen calendarios de publicación propios.
-- La serie de expectativas EEE informa que las respuestas son de fin de mes y que se publica entre 10 y 13 días después del mes informado. Alinearla según su fecha efectiva de disponibilidad para evitar filtración temporal.
+- La serie EEE tiene en sus metadatos “10 a 13 días del mes informado”. No interpretarlo automáticamente como publicación en el mes siguiente: verificar la fecha efectiva de cada encuesta. La referencia a fines de mes describe el horizonte de la expectativa de TPM, no que las respuestas se recojan al cierre del mes.
 - El IMACEC tiene desfase de publicación de 31 días terminado el mes y sus cifras se identifican como preliminares en los metadatos.
 - Para el dólar observado, revisar la nota metodológica del libro: describe operaciones del día hábil bancario previo a la publicación. Aunque el campo de metadatos dice “Sin rezago”, no asumir disponibilidad contemporánea antes de verificar las fechas de publicación.
 - Las series de IPC tienen cambios de base y empalmes históricos descritos en sus metadatos. Mantener el mismo concepto y transformación durante todo el período analítico.

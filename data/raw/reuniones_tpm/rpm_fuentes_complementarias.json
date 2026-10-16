@@ -1,0 +1,63 @@
+{
+  "fecha_consulta": "2026-10-16",
+  "metodo": "Fechas de documentos oficiales complementarios a los boletines y al archivo por año. Fechas transcritas; la TPM se contrasta con la serie diaria original. Las actas se usan para identificar reuniones, nunca como predictores disponibles antes de ellas.",
+  "grupos": [
+    {
+      "anio": 2012,
+      "fechas": ["2012-08-16"],
+      "fuente_url": "https://www.bcentral.cl/documents/33528/4092482/Actas%2BRPM%2BN%C2%B0%2B189%2B-%2B16.08.2012.pdf/4eac9f32-b623-f283-f7b6-9281a7c5b58f?t=1679683712527&version=1.0"
+    },
+    {
+      "anio": 2012,
+      "fechas": ["2012-09-13"],
+      "fuente_url": "https://www.bcentral.cl/en/content/-/details/rpm-septiembre-2012",
+      "tpm_anunciada_pct": 5.0
+    },
+    {
+      "anio": 2012,
+      "fechas": ["2012-10-18"],
+      "fuente_url": "https://www.bcentral.cl/documents/33528/170270/bcch_archivo_105856_es.pdf/f900712f-1e32-0928-1e41-107c745d25d2?t=1655233826867&version=1.1"
+    },
+    {
+      "anio": 2012,
+      "fechas": ["2012-11-13"],
+      "fuente_url": "https://www.bcentral.cl/documents/33528/170270/bcch_archivo_105857_es.pdf/2a870d3b-fb31-8266-692d-1d06936a63c3?t=1655233826870&version=1.1"
+    },
+    {
+      "anio": 2012,
+      "fechas": ["2012-12-13"],
+      "fuente_url": "https://www.bcentral.cl/documents/33528/170270/bcch_archivo_105858_es.pdf/e1e16516-5f31-b096-1408-62abc2b0e08b?t=1655219426866&version=1.1",
+      "nota": "Fecha también identificada en el registro RPM N°193 del repositorio oficial."
+    },
+    {
+      "anio": 2013,
+      "fechas": ["2013-01-17", "2013-02-14"],
+      "fuente_url": "https://www.bcentral.cl/documents/33528/133457/bcch_archivo_097842_es.pdf/a8bf247d-50e4-8982-edd2-e7cadef3079f?t=1696507921356",
+      "localizador": "Memoria Anual 2013, Anexo I, página impresa 53",
+      "tpm_anunciada_pct": 5.0
+    },
+    {
+      "anio": 2013,
+      "fechas": ["2013-03-14"],
+      "fuente_url": "https://www.bcentral.cl/documents/33528/170270/bcch_archivo_105692_es.pdf/d16b82e8-07fc-c468-eaf3-cce77fe7b8c2?t=1655219426873&version=1.1"
+    },
+    {
+      "anio": 2013,
+      "fechas": ["2013-04-11"],
+      "fuente_url": "https://repositoriodigital.bcentral.cl/xmlui/bitstream/handle/20.500.12580/10455/Acta%20RPM%20n%C2%BA197.pdf?isAllowed=y&sequence=14"
+    },
+    {
+      "anio": 2013,
+      "fechas": ["2013-05-16", "2013-06-13", "2013-07-11", "2013-08-13", "2013-09-12", "2013-10-17", "2013-11-19", "2013-12-12"],
+      "fuente_url": "https://repositoriodigital.bcentral.cl/xmlui/handle/20.500.12580/4514/browse?etal=-1&locale-attribute=en&offset=199&order=ASC&rpp=20&sort_by=1&starts_with=T&type=title",
+      "localizador": "Registros RPM N°198 a N°205"
+    },
+    {
+      "anio": 2014,
+      "fechas": ["2014-01-16", "2014-02-18", "2014-03-13", "2014-04-17", "2014-05-15", "2014-06-12", "2014-07-15", "2014-08-14", "2014-09-11", "2014-10-16", "2014-11-18", "2014-12-11"],
+      "fuente_url": "https://si2.bcentral.cl/public/publicaciones_digitales/Memoriaanual2014/capitulos/anexos/comunicados-prensa-reuniones.html",
+      "localizador": "Memoria Anual 2014 digital, Anexo I; doce comunicados completos",
+      "tpm_anunciadas_pct": [4.5,4.25,4.0,4.0,4.0,4.0,3.75,3.5,3.25,3.0,3.0,3.0]
+    }
+  ]
+}
