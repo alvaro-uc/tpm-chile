@@ -1,5 +1,13 @@
 # Fuentes y decisiones de datos
 
+## Bitácora para la Entrega 2
+
+La [bitácora del avance](bitacora_avance_entrega_2.md) reúne el historial de
+commits hasta `a5a32f9`, los datos, decisiones temporales, resultados comprobados
+y pendientes. El [PDF para compartir](bitacora_avance_entrega_2.pdf) incluye
+también el [guion editable del video](guion_video_avance_entrega_2.md), con
+reparto propuesto entre los cuatro integrantes y tiempos para ensayar.
+
 ## Inventario de archivos originales
 
 Los Excel conservan sus hojas `Cuadro`, `Metadatos` y `Series`. Los datos no se reescriben dentro de esos archivos. El código de serie indicado abajo sirve para identificar la serie del Banco Central en su exportación; el equipo trabajará leyendo los archivos locales y no mediante APIs ni descargas automáticas.
