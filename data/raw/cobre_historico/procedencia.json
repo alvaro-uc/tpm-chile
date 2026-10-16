@@ -1,0 +1,24 @@
+{
+  "source": "Comisión Chilena del Cobre (Cochilco)",
+  "consultation_url": "https://boletin.cochilco.cl/estadisticas/grafico.asp?tipo_metal=1",
+  "download_url": "https://boletin.cochilco.cl/estadisticas/grafico/crear_excel.asp",
+  "method": "POST",
+  "parameters": {
+    "tipo_metal": "Cobre",
+    "tipo_consulta": "1",
+    "bolsa_final": "BML",
+    "dia": "1",
+    "mes": "1",
+    "anio": "2010",
+    "dia1": "31",
+    "mes1": "12",
+    "anio1": "2013",
+    "bandera": "S"
+  },
+  "downloaded_at_utc": "2026-10-16T18:32:31.022462+00:00",
+  "content_type": "application/vnd.ms-excel",
+  "original_filename": "datos.xls",
+  "stored_filename": "cochilco_cobre_bml_2010_2013.xls",
+  "format_note": "Exportación original HTML con extensión .xls; no es un XLS binario.",
+  "sha256": "cc8a75e8f1886197f04731a022b3c41d354f3802c8b99324724a00f3762f631c"
+}

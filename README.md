@@ -6,7 +6,7 @@ Proyecto semestral de IMT 2210 — Introducción a la Ciencia de Datos.
 
 Este proyecto estudia hasta qué punto los indicadores macroeconómicos públicos permiten anticipar la dirección de la próxima decisión de Tasa de Política Monetaria (TPM) del Banco Central de Chile: **sube, se mantiene o baja**.
 
-Construiremos un conjunto de datos reproducible para 2010–2025, integrando series oficiales del Banco Central de Chile y del Instituto Nacional de Estadísticas (INE): TPM, IPC/inflación, IMACEC, desempleo, USD/CLP y precio del cobre. También evaluaremos si las Expectativas Económicas (EEE) agregan información, según disponibilidad y alcance del curso.
+Construiremos un conjunto de datos reproducible para 2010–2025, integrando series oficiales del Banco Central de Chile, Cochilco y el Instituto Nacional de Estadísticas (INE): TPM, IPC/inflación, IMACEC, desempleo, USD/CLP y precio del cobre. También evaluaremos si las Expectativas Económicas (EEE) agregan información, según disponibilidad y alcance del curso.
 
 El estudio incluirá preparación documentada, análisis exploratorio, una regla base y uno o dos clasificadores introductorios (regresión logística y, opcionalmente, árbol de decisión). La evaluación respetará el orden temporal. El objetivo es medir la señal predictiva, no construir un sistema de inversión ni afirmar causalidad.
 
@@ -56,6 +56,16 @@ fecha y los límites de esta primera versión están en
 [`docs/reuniones_tpm.md`](docs/reuniones_tpm.md).
 El notebook [`02_reuniones_tpm.ipynb`](notebooks/02_reuniones_tpm.ipynb)
 explica y ejecuta ese proceso paso a paso desde un kernel limpio.
+
+**Fuente elegida para el cobre: Cochilco, precio spot BML/LME, para todo 2010–2025.**
+Las descargas originales y su procedencia están en `data/raw/cobre_historico/`.
+La tabla para análisis es `data/processed/cobre_cochilco_diario_2010_2025.csv`,
+en dólares por libra, con fechas ISO y trazabilidad por fila. Se regenera sin
+conexión con `python -m src.processing.cobre_cochilco`. El notebook
+[`03_cobre_historico.ipynb`](notebooks/03_cobre_historico.ipynb) explica y ejecuta
+la recuperación, comparación y construcción de la serie completa.
+El Excel del BCCh queda como referencia; no se mezclan sus precios con Cochilco.
+Ver la decisión y sus controles en [`docs/cobre_historico.md`](docs/cobre_historico.md).
 
 ## Requisitos previos
 

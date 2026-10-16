@@ -1,0 +1,54 @@
+{
+  "fuente_elegida": "Cochilco",
+  "mercado": "BML/LME spot",
+  "unidad": "USD/libra",
+  "periodo_proyecto": "2010–2025",
+  "observaciones": 4042,
+  "primera_fecha": "2010-01-04",
+  "ultima_fecha": "2025-12-31",
+  "meses_cubiertos": 192,
+  "duplicados_identicos_eliminados": 506,
+  "observaciones_por_anio": {
+    "2010": 253,
+    "2011": 251,
+    "2012": 252,
+    "2013": 253,
+    "2014": 253,
+    "2015": 253,
+    "2016": 253,
+    "2017": 252,
+    "2018": 253,
+    "2019": 253,
+    "2020": 254,
+    "2021": 253,
+    "2022": 251,
+    "2023": 251,
+    "2024": 254,
+    "2025": 253
+  },
+  "dias_lunes_viernes_sin_observacion": 132,
+  "observaciones_fin_de_semana": 0,
+  "precio_minimo_usd_lb": 1.9552,
+  "precio_maximo_usd_lb": 5.6753,
+  "mezcla_con_bcentral": false,
+  "interpolacion": false,
+  "relleno_de_fechas": false,
+  "fecha_significado": "Fecha de cotización informada por la fuente; no certifica hora de publicación.",
+  "archivos_fuente": [
+    {
+      "archivo": "cochilco_cobre_bml_2010_2013.xls",
+      "sha256": "cc8a75e8f1886197f04731a022b3c41d354f3802c8b99324724a00f3762f631c",
+      "observaciones": 1009
+    },
+    {
+      "archivo": "cochilco_cobre_bml_2013_2019.xls",
+      "sha256": "ba380b0942efa19a7b5e5e640f3364466e429cd0d1c9839d8eff6d9c3ee1979e",
+      "observaciones": 1770
+    },
+    {
+      "archivo": "cochilco_cobre_bml_2019_2025.xls",
+      "sha256": "bc504f02ea09a7a96f32806757a342b576de061c20cbfda2a07d22d20a1ea100",
+      "observaciones": 1769
+    }
+  ]
+}

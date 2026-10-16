@@ -17,6 +17,19 @@ Los Excel conservan sus hojas `Cuadro`, `Metadatos` y `Series`. Los datos no se 
 
 La cobertura muestra todo el período guardado en cada Excel. El análisis principal propuesto se limita a 2010–2025. Se filtrará ese período en el procesamiento, sin recortar los archivos originales. IPC mensual y anual son medidas relacionadas, pero no intercambiables; no duplicar ambas como predictores sin una justificación analítica.
 
+**Decisión del equipo (16-10-2026): usar exclusivamente Cochilco para el cobre
+diario durante 2010–2025.** Las tres exportaciones originales se conservan en
+`data/raw/cobre_historico/`, junto a sus parámetros y huellas SHA-256. Son HTML
+entregado con extensión `.xls`, sin las hojas de los Excel BCCh. La tabla elegida
+es `data/processed/cobre_cochilco_diario_2010_2025.csv` (USD/libra). Se regenera
+con `python -m src.processing.cobre_cochilco`, sin usar red ni el Excel BCCh.
+
+El Excel de cobre BCCh del inventario se mantiene como referencia histórica.
+No se usa para completar o reemplazar valores de la serie elegida. Las tablas
+anteriores del suplemento 2010–2012 y comparación 2012–2013 se conservan como
+auditoría; no son la entrada recomendada para los modelos. Ver
+[`cobre_historico.md`](cobre_historico.md) y `cobre_cochilco_validacion.json`.
+
 ## Lectura e interpretación
 
 El historial de reuniones y la regla de corte acordada están en

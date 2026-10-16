@@ -1,0 +1,30 @@
+{
+  "source": "Comisión Chilena del Cobre (Cochilco)",
+  "consultation_url": "https://boletin.cochilco.cl/estadisticas/grafico.asp?tipo_metal=1",
+  "download_url": "https://boletin.cochilco.cl/estadisticas/grafico/crear_excel.asp",
+  "method": "POST",
+  "parameters": {
+    "tipo_metal": "Cobre",
+    "tipo_consulta": "1",
+    "bolsa_final": "BML",
+    "dia": "1",
+    "mes": "1",
+    "anio": "2013",
+    "dia1": "31",
+    "mes1": "12",
+    "anio1": "2019",
+    "bandera": "S"
+  },
+  "downloaded_at_utc": "2026-10-16T19:00:02.882900+00:00",
+  "content_type": "application/vnd.ms-excel",
+  "original_filename": "datos.xls",
+  "stored_filename": "cochilco_cobre_bml_2013_2019.xls",
+  "format_note": "Exportación original HTML con extensión .xls; no es un XLS binario.",
+  "sha256": "ba380b0942efa19a7b5e5e640f3364466e429cd0d1c9839d8eff6d9c3ee1979e",
+  "unit": "Centavos de dólar por libra",
+  "frequency": "Diaria",
+  "market": "BML/LME, contado/spot",
+  "observations": 1770,
+  "first_observation": "2013-01-02",
+  "last_observation": "2019-12-31"
+}

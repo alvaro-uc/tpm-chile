@@ -1,0 +1,16 @@
+{
+  "cochilco_observaciones": 1009,
+  "faltante_recuperado_observaciones": 696,
+  "faltante_desde": "2010-01-04",
+  "faltante_hasta": "2012-10-04",
+  "primera_observacion_bcentral": "2012-10-05",
+  "comparacion_observaciones": 299,
+  "comparacion_desde": "2012-10-05",
+  "comparacion_hasta": "2013-12-30",
+  "diferencia_absoluta_media_usd_lb": 0.033824692307692306,
+  "diferencia_absoluta_maxima_usd_lb": 0.21019999999999994,
+  "coinciden_dentro_redondeo": 39,
+  "correlacion": 0.973769179340497,
+  "empalme_automatico": false,
+  "motivo": "Se recupera la historia, pero las fuentes no coinciden solo por redondeo. Conservar por separado hasta resolver la definición temporal/metodológica."
+}

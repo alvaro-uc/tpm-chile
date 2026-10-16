@@ -25,6 +25,15 @@ data/raw/reuniones_tpm/*
 !data/raw/reuniones_tpm/rpm_boletines_2010_2012.json
 !data/raw/reuniones_tpm/rpm_fuentes_complementarias.json
 !data/raw/reuniones_tpm/rpm_memoria_2014.html
+!data/raw/cobre_historico/
+data/raw/cobre_historico/*
+!data/raw/cobre_historico/README.md
+!data/raw/cobre_historico/cochilco_cobre_bml_2010_2013.xls
+!data/raw/cobre_historico/procedencia.json
+!data/raw/cobre_historico/cochilco_cobre_bml_2013_2019.xls
+!data/raw/cobre_historico/cochilco_cobre_bml_2019_2025.xls
+!data/raw/cobre_historico/procedencia_2013_2019.json
+!data/raw/cobre_historico/procedencia_2019_2025.json
 !data/processed/
 data/processed/*
 !data/processed/.gitkeep

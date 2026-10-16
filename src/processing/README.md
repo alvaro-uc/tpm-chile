@@ -9,3 +9,8 @@ fuentes locales y el Excel diario original, sin depender de los CSV limpios.
 Incluye fecha de decisión, corte al cierre del día hábil anterior, niveles de
 TPM antes y después y etiqueta `sube/mantiene/baja`. Ver `docs/reuniones_tpm.md`
 para fuentes, trazabilidad y límites del calendario operativo.
+
+`python -m src.processing.cobre_cochilco` construye la serie elegida de cobre
+spot BML/LME 2010–2025, en USD/libra, desde las tres descargas de Cochilco.
+Valida procedencia, solapamientos y cobertura; no mezcla datos BCCh ni rellena
+fechas. `cobre_historico` conserva la comparación inicial como auditoría.
