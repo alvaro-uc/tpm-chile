@@ -21,6 +21,7 @@ data/raw/*
 !data/processed/
 data/processed/*
 !data/processed/.gitkeep
+!data/processed/*.csv
 
 # Jupyter
 .ipynb_checkpoints/
