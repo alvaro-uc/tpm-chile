@@ -1,5 +1,12 @@
 # Notebooks
 
+`04_data_unificada.ipynb` importa y explora las ocho series, explica la relación
+entre reuniones y observaciones, prepara la captura de publicaciones y exporta
+vínculos auditables y una tabla ancha. Incluye cuatro láminas y un caso IPC real
+documentado (reunión 17/10/2024). Recorta copias a 2010–2025 y separa una reserva
+de 2009. Los otros períodos sin evidencia quedan pendientes; ver
+`docs/data_unificada.md`.
+
 Usa esta carpeta para notebooks numerados y reproducibles. El notebook final debe poder ejecutarse de principio a fin partiendo de los datos documentados en `data/raw/`.
 
 `02_reuniones_tpm.ipynb` documenta y procesa la recopilación de reuniones de

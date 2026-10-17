@@ -18,6 +18,9 @@ data/raw/*
 !data/raw/cu_usd_lb.xlsx
 !data/raw/exp_tpm_mensual_mediana.xlsx
 !data/raw/imacec_empalmado_original.xlsx
+!data/raw/publicaciones_indicadores/
+!data/raw/publicaciones_indicadores/*.csv
+!data/raw/publicaciones_indicadores/*.md
 !data/raw/reuniones_tpm/
 data/raw/reuniones_tpm/*
 !data/raw/reuniones_tpm/README.md
@@ -38,6 +41,9 @@ data/raw/cobre_historico/*
 data/processed/*
 !data/processed/.gitkeep
 !data/processed/*.csv
+!data/processed/unificada/
+data/processed/unificada/*
+!data/processed/unificada/publicaciones_por_documentar.csv
 
 # Jupyter
 .ipynb_checkpoints/
@@ -77,6 +83,8 @@ build/
 Thumbs.db
 
 # Logs y archivos temporales
+.build/
+.chart-data-*/
 *.log
 *.tmp
 *.swp
