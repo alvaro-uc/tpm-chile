@@ -1,5 +1,10 @@
 # Fuentes y decisiones de datos
 
+El estado actualizado al 17 de octubre está en
+[`estado_avance_2026_10_17.md`](estado_avance_2026_10_17.md), con los avances
+de integración y presentación, las verificaciones y los pendientes. La
+bitácora y su PDF conservan el corte histórico del 16 de octubre.
+
 ## Bitácora para la Entrega 2
 
 La [bitácora del avance](bitacora_avance_entrega_2.md) reúne el historial de

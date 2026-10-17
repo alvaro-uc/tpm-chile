@@ -67,6 +67,17 @@ la recuperación, comparación y construcción de la serie completa.
 El Excel del BCCh queda como referencia; no se mezclan sus precios con Cochilco.
 Ver la decisión y sus controles en [`docs/cobre_historico.md`](docs/cobre_historico.md).
 
+La integración por decisión comienza en
+[`04_data_unificada.ipynb`](notebooks/04_data_unificada.ipynb): importa las ocho
+series, revisa cada dataset y relaciona observaciones con reuniones mediante
+IDs estables. Distingue candidatos por fecha de valores respaldados por su
+publicación y versión histórica; estos últimos quedan pendientes mientras no
+se complete la captura de evidencia. Ver [`docs/data_unificada.md`](docs/data_unificada.md).
+
+La presentación editable, las láminas PDF y el guion del ensayo están enlazados
+en [`src/presentation/README.md`](src/presentation/README.md). El estado del
+avance y los próximos pasos quedan en [`docs/estado_avance_2026_10_17.md`](docs/estado_avance_2026_10_17.md).
+
 ## Requisitos previos
 
 - Git.
