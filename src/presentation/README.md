@@ -1,4 +1,27 @@
-# Presentación y guion del video de avance
+# Presentaciones y guiones de TPM
+
+## Entrega final
+
+Las once láminas, el PDF de captura, el guion de lectura y la pauta de grabación
+están en [output/entrega_final](../../output/entrega_final/). El texto hablado,
+las notas de edición y la pauta de 7:55 provienen de
+[contenido_final.json](contenido_final.json).
+
+Para regenerarlos desde la raíz, ejecuta
+[05_estudio_final_tpm.ipynb](../../notebooks/05_estudio_final_tpm.ipynb) y los
+comandos siguientes. Usa las rutas del runtime que devuelve
+`load_workspace_dependencies` para `RUNTIME_NODE`, `RUNTIME_NODE_MODULES` y
+`RUNTIME_PYTHON`. `PRESENTATIONS_SKILL` es la carpeta instalada que contiene
+`container_tools/artifact_tool_utils.mjs`. El nombre alternativo permite
+validar una revisión sin sobrescribir el PowerPoint final existente.
+
+```powershell
+rtk proxy $env:RUNTIME_PYTHON -m src.presentation.preparar_final
+rtk proxy $env:RUNTIME_NODE src/presentation/crear_final.mjs presentacion_tpm_final_revision.pptx
+rtk proxy $env:RUNTIME_PYTHON -m src.presentation.exportar_final
+```
+
+## Video de avance
 
 Ocho láminas 16:9 para un ensayo de 5:40, con margen hasta seis minutos.
 El contenido responde a la consigna descrita por el usuario, sin acceso

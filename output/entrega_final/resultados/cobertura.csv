@@ -1,0 +1,9 @@
+variable,frecuencia,unidad,filas_2010_2025,transformacion,n_candidato_transformado,n_con_respaldo,edad_mediana_dias,edad_max_dias,criterio
+tpm_bcentral_diaria,diaria,%,3984,tpm_previa_pct,161,161,0.0,0.0,TPM vigente; evitar duplicarla
+clp_usd,diaria,CLP/USD,3983,dolar_ret_20,161,161,0.0,0.0,Vigencia BCCh; retorno de 20 cotizaciones
+cu_usd_lb,diaria,USD/libra,4042,cobre_ret_20,160,0,1.0,5.0,Fecha de cotización; faltan horas publicadas
+desempleo_total_mensual,mensual,%,190,desemp_12m,144,0,104.0,122.0,Trimestre móvil; versión retrospectiva
+exp_tpm_mensual_mediana,mensual,%,192,eee_brecha,161,0,43.0,61.0,Mes previo; horizonte de fin de mes
+imacec_empalmado_original,mensual,2018=100,192,imacec_12m,158,0,104.0,122.0,Índice empalmado; sujeto a revisiones
+ipc_general_mensual,mensual,%,192,ipc_12m,160,2,74.0,91.0,Boletines solo para el IPC mensual de ejemplo
+ipc_general_anual,anual,%,16,no construida,0,0,,,Diciembre; excluido por frecuencia y redundancia
