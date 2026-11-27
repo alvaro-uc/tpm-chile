@@ -1,6 +1,17 @@
 # ¿Podemos anticipar al Banco Central?
 
-Proyecto semestral de IMT 2210 — Introducción a la Ciencia de Datos.
+Proyecto semestral de IMT2200, Introducción a la Ciencia de Datos.
+
+## Entrega final
+
+- [Notebook ejecutado](notebooks/05_estudio_final_tpm.ipynb) con cobertura por predictor, EDA por clase y 100 pronósticos cronológicos.
+- [Presentación editable](output/entrega_final/presentacion_tpm_final.pptx) y [láminas para OBS](output/entrega_final/laminas_para_grabar.pdf).
+- [Pauta de grabación](output/entrega_final/pauta_grabacion.pdf), [guion de lectura](output/entrega_final/guion_de_lectura.pdf) y [guion técnico](output/entrega_final/guion_tecnico.md).
+- [Instrucciones para reproducir el análisis desde los datos originales](notebooks/README.md#reproducir-la-entrega-desde-los-insumos-originales).
+
+En 100 reuniones ordinarias de prueba, el F1 macro fue 0,260 para mayoría histórica, 0,694 para persistencia, 0,695 para la logística con historial de TPM y 0,691 al añadir el dólar. [Tabla de métricas](output/entrega_final/resultados/metricas.csv).
+
+Repetir la última decisión fue difícil de superar y añadir el dólar no mejoró el F1 macro en esta prueba. Para evaluar los demás indicadores con el mismo criterio se necesitan sus publicaciones y versiones históricas al corte. Los datos macro retrospectivos y la Encuesta de Expectativas Económicas se examinan en los análisis de sensibilidad.
 
 ## Resumen
 

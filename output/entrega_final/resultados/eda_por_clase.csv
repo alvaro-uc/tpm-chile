@@ -1,0 +1,19 @@
+variable,nombre,unidad,decision,n,mediana,q25,q75
+ipc_12m,IPC acumulado a 12 meses,%,baja,9,3.9681908891427087,2.9335759535132455,4.6954466288603225
+ipc_12m,IPC acumulado a 12 meses,%,mantiene,38,2.8319315265888934,1.6301377747720391,3.6062134014168192
+ipc_12m,IPC acumulado a 12 meses,%,sube,12,2.3649655804706904,1.8070570557121413,2.884884905615237
+imacec_12m,IMACEC original interanual,%,baja,9,2.4185953470106547,1.6090426868703211,3.055311897186108
+imacec_12m,IMACEC original interanual,%,mantiene,36,4.652850396894081,3.095446516274497,6.160842816875106
+imacec_12m,IMACEC original interanual,%,sube,12,7.04120203096219,6.377505337166406,7.882210216740887
+desemp_12m,Cambio interanual del desempleo,pp,baja,9,-0.39486288493120014,-0.4948871847316001,-0.21699272326769936
+desemp_12m,Cambio interanual del desempleo,pp,mantiene,33,-0.5878460422707992,-0.9143965609229001,-0.3629240676545997
+desemp_12m,Cambio interanual del desempleo,pp,sube,1,-1.6794815055229995,-1.6794815055229995,-1.6794815055229995
+dolar_ret_20,Dólar observado a 20 cotizaciones,%,baja,9,1.85102420856611,-0.3725025397900539,3.1412153926519304
+dolar_ret_20,Dólar observado a 20 cotizaciones,%,mantiene,39,0.13496015027996133,-0.7572433456830119,1.8370538538493686
+dolar_ret_20,Dólar observado a 20 cotizaciones,%,sube,12,-1.4892483306285231,-2.67004586771431,0.5769182726853506
+cobre_ret_20,Cobre BML a 20 cotizaciones,%,baja,9,-1.6657607826837562,-2.763421264900079,-1.0472027422246066
+cobre_ret_20,Cobre BML a 20 cotizaciones,%,mantiene,38,-0.6778714772907424,-4.100758830155338,3.5459113821339816
+cobre_ret_20,Cobre BML a 20 cotizaciones,%,sube,12,4.274115453341542,-1.7539397194151178,8.711596794233067
+eee_brecha,Expectativa EEE anterior menos TPM,pp,baja,9,0.0,0.0,0.0
+eee_brecha,Expectativa EEE anterior menos TPM,pp,mantiene,39,0.0,0.0,0.0
+eee_brecha,Expectativa EEE anterior menos TPM,pp,sube,12,0.0,-0.0625,0.0
